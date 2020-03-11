@@ -11,18 +11,6 @@
         <div class="container-fluid bg-opacity p-4">
           <div id="header">
             <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
-            <h4 class="text-primary p-3">Encuentra tu inmueble</h4>
           </div>
           <div id="nav-pills">
             <ul class="nav nav-pills nav-fill nav-radius" id="myTab" role="tablist">
