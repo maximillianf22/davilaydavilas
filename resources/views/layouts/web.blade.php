@@ -82,25 +82,25 @@
               <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarText">
                 <ul class="navbar-nav ml-auto p-1 border-primary border-bottom">
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="{{ route('register') }}">Ventas</a>
+                    <a class="nav-link text-dark" href="#">Ventas</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="{{ route('arriendos') }}">Arriendos</a>
+                    <a class="nav-link text-dark" href="#">Arriendos</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="{{ route('servicios') }}">Servicios</a>
+                    <a class="nav-link text-dark" href="#">Servicios</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="{{ route('proyectos') }}">Proyectos</a>
+                    <a class="nav-link text-dark" href="#">Proyectos</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="{{ route('blog') }}">Blog</a>
+                    <a class="nav-link text-dark" href="#">Blog</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark text-nowrap" href="{{ route('quienes-somos') }}">¿Quienes Somos?</a>
+                    <a class="nav-link text-dark text-nowrap" href="#">¿Quienes Somos?</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="{{ route('Contacto') }}">Contactanos</a>
+                    <a class="nav-link text-dark" href="#">Contactanos</a>
                   </li>
                 </ul>
               </div>
