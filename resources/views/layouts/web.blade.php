@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="_token" content="{{csrf_token()}}" />
-    <title>{{ config('app.name', 'Inmobiliaria Davila & Davila') }}</title>
+    <title>Inmobiliaria Davila & Davila</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}" rel="stylesheet">
     <!-- Custom styles for this template -->
