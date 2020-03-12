@@ -65,7 +65,7 @@
         @endguest
 
 
-         <nav class="navbar navbar-expand-lg navbar-light p-0">
+         <nav class="navbar navbar-expand-lg navbar-light p-0 mb-2">
           <a class="navbar-brand p-0" href="#">
             <div class="col-8 d-block d-sm-block d-md-none p-0">
             <img src="{{asset('img/titulodyd.png')}}" class="img-fluid">
