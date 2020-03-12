@@ -6,7 +6,7 @@
 <header class="masthead">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-      <!-- Header div-1 -->
+      <!-- Header -1 -->
       <div class="col-md-6 text-center">
         <div class="container-fluid bg-opacity p-4">
           <div id="header">
@@ -152,15 +152,15 @@
               </div>
               </div>
           <div class="row" id="button-submit align-items-center">
-            <div class="col-md-4 offset-md-4 p-2 mb-3">
-              <button class="btn-block btn-radius btn-primary">Buscar <i class="fa fa-search" aria-hidden="true"></i></button>
+            <div class="col-md-6 offset-md-3 p-1 mb-3">
+              <button class="btn-block btn-lg btn-radius btn-primary">Buscar <i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
           </div>
         </div>
       </div>
-      <!-- #Header div 1-->
+      <!-- #Header 1-->
 
-      <!-- Header div 2-->
+      <!-- Header 2-->
       <div class="col-md-6 text-right d-none d-sm-none d-md-block">
         <h1 class="header-1" style="color: black"><big>Encuentra <br> <b>lo que necesitas</b></big></h1><br>
         <div class="col-md-8 offset-md-3">
@@ -168,24 +168,28 @@
         <button class="btn btn-primary btn-lg btn-block">PUBLICA TU REQUERIMIENTO</button>
         </div>
       </div>
-      <!-- #Header div 1-->
+      <!-- #Header 2-->
     </div>
   </div>
 </header>
 <!-- #Header -->
 
-<section class="div-1 d-none d-sm-none d-md-block">
+<!--Seccion header descripcion de la empresa-->
+<section class="div-1">
   <div class="container-fluid">
     <div class="row align-items-center">
-      <div class="col-lg-12 text-lg-center btn-wrapper p-2 mt-4">
+      <div class="col-lg-12 text-lg-center btn-wrapper p-2 mt-4  d-none d-sm-none d-md-block">
         <h1 class="redes sociales text-light"><big><strong style="font-family: Century Gothic" class="font-italic">¡Somos tu Inmobiliaria de Confianza!</strong></big></h1>
+      </div>
+      <div class="col-lg-12 text-lg-center btn-wrapper p-2 mt-4  d-block d-sm-block d-md-none">
+        <h4 class="redes sociales text-light"><big><strong style="font-family: Century Gothic" class="font-italic">¡Somos tu Inmobiliaria de Confianza!</strong></big></h4>
       </div>
     </div>
   </div>
 </section>
-
-<section>
-  <div class="container bg-light">
+<!--Seccion descripcion de la empresa-->
+<section class="bg-light">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12 text-lg-center btn-wrapper p-2 mt-4" style="font-size: 25px">
        Somos la inmobiliaria líder en servicios inmobiliarios en Colombia. Contamos con oficinas en
@@ -196,10 +200,10 @@
   </div>
   <hr>
 </section>
-<!-- Ariendos -->
+<!--Card Lista de inmuebles en Arriendo-->
 <section id="lista de inmuebles">
   <div class="container">
-    <div class="row">
+    <div class="row mb-0">
         <div class="col-xl-8 mt-4 mx-auto text-center">
           <div class="section-title">
             <h4 class="text-dark">Inmuebles en Arriendo</h4>
@@ -207,58 +211,57 @@
         </div>
       </div>
     <div class="row">
-      <div class="col-md-3 mt-4">
-      <div class="card profile-card-5 text-right">
-          <div class="card-img-block">
-              <img class="card-img-top" src="https://d3agu2fxhtb0q8.cloudfront.net/1506379173772_46728356.jpg" alt="Card image cap">
+    <div class="card-deck">
+      <!--Card Arriendos-->
+      <div class="card arriendo-card text-left">
+        <div class="card-img-block">
+            <img class="card-img-top" src="https://d3agu2fxhtb0q8.cloudfront.net/1506379173772_46728356.jpg" alt="Card image cap">
+        </div>
+            <div class="card-body pt-0">
+            <a href=""><h4 class="card-title text-primary mt-3">Arriendo de casas en Barranquilla</h4></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-primary"><b>800 m<sup>2</sup></b></p>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
           </div>
-              <div class="card-body pt-0">
-              <a href=""><h4 class="card-title text-primary">Arriendo de casas en Barranquilla</h4></a>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-heart" aria-hidden="true"></i></a>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
-            </div>
+      </div>  
+      <div class="card arriendo-card text-left">
+        <div class="card-img-block">
+            <img class="card-img-top" src="https://http2.mlstatic.com/casas-en-venta-santa-marta-532-1947-D_NQ_NP_658620-MCO28638467460_112018-F.jpg" alt="Card image cap">
+        </div>
+            <div class="card-body pt-0">
+            <a href=""><h4 class="card-title text-primary mt-3">Arriendo de casas en Barranquilla</h4></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-primary"><b>500 m<sup>2</sup></b></p>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
           </div>
-      </div>   
-      <div class="col-md-3 mt-4">
-      <div class="card profile-card-5 text-right">
-          <div class="card-img-block">
-              <img class="card-img-top" src="https://http2.mlstatic.com/casas-en-venta-santa-marta-532-1947-D_NQ_NP_658620-MCO28638467460_112018-F.jpg" alt="Card image cap">
+      </div>
+      <div class="card arriendo-card text-left">
+        <div class="card-img-block">
+            <img class="card-img-top" src="https://staticw.s3.amazonaws.com/inmuebles/7972320160810095123.jpg" alt="Card image cap">
+        </div>
+            <div class="card-body pt-0">
+            <a href=""><h4 class="card-title text-primary mt-3">Arriendo de casas en Barranquilla</h4></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-primary"><b>200 m<sup>2</sup></b></p>
+            <a href="#" class="btn btn-primary btn-sm "><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
           </div>
-              <div class="card-body pt-0">
-              <a href=""><h4 class="card-title text-primary">Arriendo de casas en Barranquilla</h4></a>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-heart" aria-hidden="true"></i></a>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
-            </div>
+      </div>
+      <div class="card arriendo-card text-left">
+        <div class="card-img-block">
+            <img class="card-img-top" src="https://images.clasicolombia.com/2013/06/30/casa-venta-santa-marta-4-habitaciones-2-banos_a7eea8849_3.jpg" alt="Card image cap">
+        </div>
+            <div class="card-body pt-0">
+            <a href=""><h4 class="card-title text-primary mt-3">Arriendo de casas en Barranquilla</h4></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-primary">900 m<sup>2</sup></p>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
           </div>
-      </div>   
-      <div class="col-md-3 mt-4">
-      <div class="card profile-card-5 text-right">
-          <div class="card-img-block">
-              <img class="card-img-top" src="https://staticw.s3.amazonaws.com/inmuebles/7972320160810095123.jpg" alt="Card image cap">
-          </div>
-              <div class="card-body pt-0">
-              <a href=""><h4 class="card-title text-primary">Arriendo de casas en Barranquilla</h4></a>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary btn-sm "><i class="fa fa-heart" aria-hidden="true"></i></a>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
-            </div>
-          </div>
-      </div>   
-      <div class="col-md-3 mt-4">
-      <div class="card profile-card-5 text-right">
-          <div class="card-img-block">
-              <img class="card-img-top" src="https://images.clasicolombia.com/2013/06/30/casa-venta-santa-marta-4-habitaciones-2-banos_a7eea8849_3.jpg" alt="Card image cap">
-          </div>
-              <div class="card-body pt-0">
-              <a href=""><h4 class="card-title text-primary">Arriendo de casas en Barranquilla</h4></a>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-heart" aria-hidden="true"></i></a>
-              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
-            </div>
-          </div>
-      </div>    
+      </div>
+    </div>  
   </div>
       <div class="row" id="button-submit align-items-center">
         <div class="col-md-4 offset-md-4 p-4 mt-4 mb-3">
@@ -371,6 +374,8 @@
 </div>
 </section>
 
+
+<!--Seccion Blog-->
 <section id="blog-post">
   <div class="container mt-4">
         <div class="row">
@@ -456,31 +461,4 @@
       </div>
 </section>
 
-
-
-
-<!-- 
-<div class="container p-4">
-<div class="row ">
-  <div class="col-ms-5 col-sm-5">
-    <div class="card-images">
-      <a href="https://blog.carlosoto.com/2020/01/23/dietas-de-bajo-y-muy-bajo-contenido-calorico-por-su-aporte-energetico-tan-comprometido-el-uso-de-este-tipo-dietas-esta-limitado-a-la-practica-clinica/" title="Dietas de bajo y muy bajo contenido calórico Por su aporte energético tan comprometido, el uso de este tipo dietas está limitado a la práctica clínica.">
-      <img width="360" height="240" src="https://blog.carlosoto.com/wp-content/uploads/2020/01/38780861_l-360x240.jpg" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" srcset="https://blog.carlosoto.com/wp-content/uploads/2020/01/38780861_l-360x240.jpg 360w, https://blog.carlosoto.com/wp-content/uploads/2020/01/38780861_l-300x200.jpg 300w, https://blog.carlosoto.com/wp-content/uploads/2020/01/38780861_l-768x513.jpg 768w, https://blog.carlosoto.com/wp-content/uploads/2020/01/38780861_l-1024x684.jpg 1024w" sizes="(max-width: 360px) 100vw, 360px">
-      </a>
-    </div>
-  </div>
-<div class="col-ms-7 col-sm-7">
-  <a href="https://blog.carlosoto.com/2020/01/23/dietas-de-bajo-y-muy-bajo-contenido-calorico-por-su-aporte-energetico-tan-comprometido-el-uso-de-este-tipo-dietas-esta-limitado-a-la-practica-clinica/" title="Dietas de bajo y muy bajo contenido calórico Por su aporte energético tan comprometido, el uso de este tipo dietas está limitado a la práctica clínica." rel="bookmark">
-    <h2>Dietas de bajo y muy bajo contenido calórico Por su aporte energético tan comprometido, el uso de este tipo dietas está limitado a la práctica clínica.
-    </h2>
-  </a>
-  <div class="card-description entry-summary ">
-    <p>En cuanto al tema a tratar les informo a las personas que me han escrito solicitándome dietas que el tema es bastante extenso y que para enviarles las recetas que me solicitan deben venir a mi escuela y allí luego<a class="moretag" href="https://blog.carlosoto.com/2020/01/23/dietas-de-bajo-y-muy-bajo-contenido-calorico-por-su-aporte-energetico-tan-comprometido-el-uso-de-este-tipo-dietas-esta-limitado-a-la-practica-clinica/">
-     Leer más…</a>
-    </p>
-  </div>
-  </div>
-</div>
-</div>
--->
 @endsection

@@ -14,7 +14,6 @@
 </head>
 <body>
     <div id="app">
-
         <!-- Navegacion-->
         @guest
         <div class="container-fluid bg-primary d-none d-sm-none d-md-block p-1">
@@ -31,7 +30,7 @@
             </ul>
         </div>
 
-        <div class="container-fluid d-none d-sm-none d-md-block">
+        <div class="container-fluid d-none d-sm-none d-md-block p-0">
             <ul class="nav justify-content-end">
                 <li class="nav-item border-right">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Registrate') }}</a>
@@ -42,7 +41,7 @@
             </ul>
         </div>
         @else
-        <div class="container-fluid d-none d-sm-none d-md-block" id="nav-border-login">
+        <div class="container-fluid d-none d-sm-none d-md-block p-0" id="nav-border-login">
             <ul class="nav nav-border-login justify-content-end">
                 <li class="nav-item dropdown">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -66,12 +65,12 @@
         @endguest
 
 
-         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">
-            <div class="col-8 d-block d-sm-block d-md-none">
+         <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <a class="navbar-brand p-0" href="#">
+            <div class="col-8 d-block d-sm-block d-md-none p-0">
             <img src="{{asset('img/titulodyd.png')}}" class="img-fluid">
             </div>
-            <div class="col-5 text-lg-center d-none d-sm-none d-md-block">
+            <div class="col-5 text-lg-center d-none d-sm-none d-md-block pt-0 pb-0">
             <img src="{{asset('img/logodavila.jpg')}}" class="img-fluid">
             <img src="{{asset('img/titulodyd.png')}}" class="img-fluid">
              </div>
@@ -83,32 +82,32 @@
               <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarText">
                 <ul class="navbar-nav ml-auto p-1 border-primary border-bottom">
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="#">Ventas</a>
+                    <a class="nav-link text-dark" href="{{ route('register') }}">Ventas</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="#">Arriendos</a>
+                    <a class="nav-link text-dark" href="{{ route('arriendos') }}">Arriendos</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="#">Servicios</a>
+                    <a class="nav-link text-dark" href="{{ route('servicios') }}">Servicios</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="#">Proyectos</a>
+                    <a class="nav-link text-dark" href="{{ route('proyectos') }}">Proyectos</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="#">Blog</a>
+                    <a class="nav-link text-dark" href="{{ route('blog') }}">Blog</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark text-nowrap" href="#">¿Quienes Somos?</a>
+                    <a class="nav-link text-dark text-nowrap" href="{{ route('quienes-somos') }}">¿Quienes Somos?</a>
                   </li>
                   <li class="nav-item pl-5">
-                    <a class="nav-link text-dark" href="#">Contactanos</a>
+                    <a class="nav-link text-dark" href="{{ route('Contacto') }}">Contactanos</a>
                   </li>
                 </ul>
               </div>
         </nav>
       <!-- #Navegacion -->
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
@@ -116,16 +115,19 @@
         <section class="div-1">
           <div class="container-fluid">
             <div class="row align-items-center">
-              <div class="col-lg-12 text-lg-center btn-wrapper p-2 mt-4">
+              <div class="col-lg-12 text-center btn-wrapper p-2 mt-4 d-none d-sm-none d-md-block">
                 <h1 class="redes sociales text-light"><big><strong style="font-family: Century Gothic">¿Eres Agente? </strong>¡Suscribete!</big></h1>
+              </div>
+              <div class="col-lg-12 text-center btn-wrapper p-2 mt-4  d-block d-sm-block d-md-none">
+                <h4 class="redes sociales text-light"><big><strong style="font-family: Century Gothic">¿Eres Agente? </strong>¡Suscribete!</big></h4>
               </div>
             </div>
           </div>
         </section>
       <div class="container mt-4">
-        <div class="row row-grid align-items-center mb-5">
-          <div class="col-lg-4 text-center btn-wrapper p-2">
-            <div class="text-center col-8 d-block d-sm-block d-md-none">
+        <div class="row row-grid align-items-center mb-5 text-center">
+          <div class="col text-center btn-wrapper p-2">
+            <div class="text-center d-block d-sm-block d-md-none">
             <img src="{{asset('img/titulodyd.png')}}" class="img-fluid">
             </div>
             <div class="col-8 text-center d-none d-sm-none d-md-block">
